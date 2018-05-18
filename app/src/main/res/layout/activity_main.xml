@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hosp"
+    tools:context="com.dhsoft.alfo6_20.hospital.MainActivity">
+
+   <ImageView
+       android:id="@+id/iv_hospital"
+       android:layout_width="150dp"
+       android:layout_height="150dp"
+       android:src="@drawable/btn_realtime_hospital"
+       android:onClick="clickHospi"
+       android:clickable="true"
+       android:layout_marginTop="120dp"/>
+
+   <ImageView
+       android:id="@+id/iv_phar"
+       android:layout_width="150dp"
+       android:layout_height="150dp"
+       android:layout_gravity="center"
+       android:src="@drawable/btn_realtime_pharmacy"
+       android:layout_marginLeft="200dp"
+       android:layout_marginTop="120dp"
+       android:onClick="clickPhar"
+       android:clickable="true" />
+
+
+   <ImageView
+       android:id="@+id/iv_eung"
+       android:layout_width="150dp"
+       android:layout_height="150dp"
+       android:layout_gravity="center"
+       android:src="@drawable/btn_search_nearby"
+       android:layout_marginTop="300dp"
+       android:onClick="clickEung"
+       android:clickable="true" />
+
+
+   <ImageView
+       android:id="@+id/board"
+       android:layout_width="150dp"
+       android:layout_height="150dp"
+       android:src="@drawable/board"
+       android:layout_marginTop="300dp"
+       android:layout_marginLeft="200dp"
+       android:onClick="clickBoard"
+       android:clickable="true"/>
+
+
+
+
+
+
+
+
+</RelativeLayout>
